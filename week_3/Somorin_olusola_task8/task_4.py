@@ -7,3 +7,15 @@
 # Print out the complete record.
 
 student = {}
+student['Name'] = input("Enter student's name: ").title()
+student['Age'] = int(input("Enter student's age: "))
+student["Score"] = [89, 60, 90]
+average_sum = sum(student["Score"])/len(student["Score"])
+student["Passed"] = average_sum >= 50
+student["Teenager"] = (student["Age"] >= 13) and (student["Age"] <= 19)
+print("\n\t=== STUDENT RECORD ===")
+print(f"Name: {student['Name']}")
+print(f"Age: {student['Age']}")
+print(f"Scores: {student["Score"]}")
+print(f"Passed: {student["Passed"]}")
+print(f"Teenager: {student["Teenager"]}")

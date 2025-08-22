@@ -7,12 +7,16 @@
 #    5. Use f-strings and/or concatenation to display a confirmation message showing the selected option.
 #    6. Ask for an amount (if applicable) and store it as a number using type casting.
 #    7. Display a final message summarizing the transaction.
-balance = 0
+
 dataplan = {
     "Daily plan": {"1.5GB": 300, "4GB": 800},
     "Weekly plan": {"15GB": 3000},
     "Monthly plan": {"50GB": 7000}
 }
+balance = 0
+ussd = ""
+while ussd != "*312#":
+    ussd = input("Enter *312# to view our service option: ")
 print("\t== Welcome to MTN, your number one service provider ==")
 
 while True:

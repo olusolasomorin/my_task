@@ -7,6 +7,14 @@
 # Applicants cannot be currently receiving any other scholarship from an entity in the Oil and Gas industry, whether national or international. 
 # Academic Qualification:
 # For undergraduate courses, applicants usually need five distinctions (As and Bs) in relevant subjects in their WAEC/WASSCE (May/June) exams, including English and Mathematics.
+
+# My Thought Process
+# Candidate must possess all the qualifications below else the candidate won't be able to fill the form completely which automatically makes the candidate not qualified for the scholarship but if the candidate successfully fills the form completely, that makes the candidate automatically qualified for the scholarship.
+# Candidate must:
+#1. Be a citizen of Nigerian
+#2. Be enrolled in a recognised Nigerian university
+#3. Not be enrolled in an ongoing scholarship
+#4. Have at least 5 distinction in relevant subjects including English and Mathematics.
 while True:
     print("FEDERAL GOVERNMENT SCHOLARSHIP ENROLLMENT FORM".center(70, " "))
     citizen = input("Are you a citizen of Nigeria (Yes/No): ").title()
